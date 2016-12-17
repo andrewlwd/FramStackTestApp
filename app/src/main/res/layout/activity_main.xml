@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.framstacktestapp.MainActivity">
+
+        <com.example.administrator.framstacktestapp.LeftDrawableButton
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#89acd9"
+            android:drawableLeft="@mipmap/ic_launcher"
+            android:textColor="#ffffff"
+            android:text="图片左侧按钮"
+            app:rd_enable="true"
+            app:rd_rippleType="wave" />
+
+</LinearLayout>
